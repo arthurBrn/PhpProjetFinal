@@ -1,0 +1,527 @@
+/* ########## CSS 1 ########## */
+
+@media only screen and (min-width:1025px) {
+
+
+p{
+	color: black;
+	text-align:center;
+}
+
+body{
+	min-height:100%;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+
+h1{
+	color:black;
+	font-size:40px;
+}
+
+h2{
+	color:black;
+	text-align:center;
+	font-size:40px;
+}
+
+h5{
+	text-align:center;
+	font-size:25px;
+}
+
+h3{
+	text-align:center;
+	font-size:45px;
+	margin-left:20px;
+	margin-top:50px;
+}
+
+#form{
+	text-align:center;
+	/*margin-top:150px;*/
+	background-color:black;
+	width:330px;
+	height:300px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:black;
+	background-color: rgba(0, 0, 0, 0);
+	background: rgba(0, 0, 0, 0);
+	color: rgba(0, 0, 131, 0.1);
+}
+
+#connexion{
+	margin-top:30px;
+	text-align:center;
+	color:black;
+	font-size:25px;
+}
+
+#connexion p{
+	font-size:15px;
+}
+
+#class{
+	width:100%;
+	height:140px;
+	background-color:black;
+}
+
+#class1{
+	width:100%;
+	height:140px;
+	background-color:black;
+}
+
+#class1 h4{
+	font-size:60px;
+	position:fixed;
+	color:white;
+	position:absolute;
+}
+
+#class1 h4 span{
+	color:white;
+	font-size:20px;
+	margin-left:960px;
+	position:absolute;
+}
+
+
+
+#envGSB{
+	margin-right : auto;
+	margin-left : auto;
+	text-align:center;
+	width : 500px;
+}
+
+#prod1{
+	background-color:grey;
+	width:300px;
+	height:400px;
+	float:left;
+	margin-left:50px;
+	border:solid 1px #333333;
+	text-align:center;
+	display:inline-block;
+}
+
+#prod2{
+	background-color:grey;
+	width:300px;
+	height:400px;
+	float:right;
+	margin-right:50px;
+	border:solid 1px #333333;
+	text-align:center;
+	display:inline-block;
+}
+
+#prod3{
+	background-color:grey;
+	width:300px;
+	height:400px;
+	margin-right:auto;
+	margin-left:190px;
+	border:solid 1px #333333;
+	text-align:center;
+	display:inline-block;
+}
+
+ul{
+	padding:auto;
+	margin:auto;
+	list-style-type:none;
+}
+ 
+li{
+	margin-left:2px; /* Décale chque li les uns des autres */ 
+	float:left; /*pour IE*/
+}
+ 
+ul li a{
+	display:block; /*Donne largeur fixe et identique à chauqe item */
+	float:left;   /*Permet qu'ils ne s'empilent pas les uns sur les autres */ 
+	width:100px;
+	background-color: black;
+	color:white;
+	text-decoration:none;
+	text-align:center;
+	padding:2px;
+	border:0px solid;
+	/*pour avoir un effet "outset" avec IE :*/
+	border-color:#DCDCDC #696969 #696969 #DCDCDC;
+}
+ 
+ul li a:hover { /*Définit l'aspect du bouton lors du survol de la souris */
+	background-color:#D3D3D3;
+	border-color:#696969 #DCDCDC #DCDCDC #696969;
+} 
+ 
+ ul li a p{
+	color:white;
+ }
+a{
+	color:black;
+}
+
+
+/* CSS pour affichage consutlerVisiteur dans modele.php */
+table{
+	margin:auto;
+}
+
+th{
+	text-align : left;
+}
+
+tr{
+	text-align:center;
+}
+/* FIN CSS pour affichage consulterVisiteur dans modele.php*/
+
+
+
+
+
+
+
+
+/* ########## CSS 2 ########## */
+
+
+@media only screen and (min-width:481px) and (max-width:1024px){
+h1{
+	color:black;
+	font-size:40px;
+}
+
+h2{
+	color:black;
+	text-align:center;
+	font-size:40px;
+}
+
+h5{
+	text-align:right;
+}
+
+h3{
+	text-align:center;
+	font-size:45px;
+	margin-left:20px;
+	margin-top:50px;
+}
+
+#form{
+	text-align:center;
+	/*margin-top:150px;*/
+	background-color:black;
+	width:330px;
+	height:300px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:black;
+	background-color: rgba(0, 0, 0, 0);
+	background: rgba(0, 0, 0, 0);
+	color: rgba(0, 0, 131, 0.1);
+}
+
+#connexion{
+	margin-top:30px;
+	text-align:center;
+	color:black;
+	font-size:25px;
+}
+
+#connexion p{
+	font-size:15px;
+}
+
+#class{
+	width:100%;
+	height:140px;
+	background-color:black;
+}
+
+#class1{
+	width:100%;
+	height:140px;
+	background-color:black;
+}
+
+#class1 h4{
+	font-size:60px;
+	position:fixed;
+	color:white;
+	position:absolute;
+}
+
+#class1 h4 span{
+	color:white;
+	font-size:20px;
+	margin-left:960px;
+	position:absolute;
+}
+
+p{
+	color: black;
+	text-align:center;
+}
+
+body{
+	min-height:100%;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+
+#envGSB{
+	margin-right : auto;
+	margin-left : auto;
+	text-align:center;
+	width : 500px;
+}
+
+#prod1{
+	background-color:grey;
+	width:300px;
+	height:400px;
+	float:left;
+	margin-left:50px;
+	border:solid 1px #333333;
+	text-align:center;
+	display:inline-block;
+}
+
+#prod2{
+	background-color:grey;
+	width:300px;
+	height:400px;
+	float:right;
+	margin-right:50px;
+	border:solid 1px #333333;
+	text-align:center;
+	display:inline-block;
+}
+
+#prod3{
+	background-color:grey;
+	width:300px;
+	height:400px;
+	margin-right:auto;
+	margin-left:190px;
+	border:solid 1px #333333;
+	text-align:center;
+	display:inline-block;
+}
+
+ul{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+ 
+li{
+	margin-left:2px; /* Décale chque li les uns des autres */ 
+	float:left; /*pour IE*/
+}
+ 
+ul li a{
+	display:block; /*Donne largeur fixe et identique à chauqe item */
+	float:left;   /*Permet qu'ils ne s'empilent pas les uns sur les autres */ 
+	width:100px;
+	background-color: black;
+	color:white;
+	text-decoration:none;
+	text-align:center;
+	padding:2px;
+	border:0px solid;
+	/*pour avoir un effet "outset" avec IE :*/
+	border-color:#DCDCDC #696969 #696969 #DCDCDC;
+}
+ 
+ul li a:hover { /*Définit l'aspect du bouton lors du survol de la souris */
+	background-color:#D3D3D3;
+	border-color:#696969 #DCDCDC #DCDCDC #696969;
+} 
+ 
+ ul li a p{
+	color:white;
+}
+}
+
+
+
+
+
+/* CSS 3 */
+
+
+
+
+
+
+@media only screen and (min-width:100px) and (max-width:736px){
+h1{
+	color:black;
+	font-size:40px;
+}
+
+h2{
+	color:black;
+	text-align:center;
+	font-size:40px;
+}
+
+h5{
+	text-align:right;
+}
+
+h3{
+	text-align:center;
+	font-size:45px;
+	margin-left:20px;
+	margin-top:50px;
+}
+
+#form{
+	text-align:center;
+	/*margin-top:150px;*/
+	background-color:black;
+	width:330px;
+	height:300px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:black;
+	background-color: rgba(0, 0, 0, 0);
+	background: rgba(0, 0, 0, 0);
+	color: rgba(0, 0, 131, 0.1);
+}
+
+#connexion{
+	margin-top:30px;
+	text-align:center;
+	color:black;
+	font-size:25px;
+}
+
+#connexion p{
+	font-size:15px;
+}
+
+#class{
+	width:100%;
+	height:140px;
+	background-color:black;
+}
+
+#class1{
+	width:100%;
+	height:140px;
+	background-color:black;
+}
+
+#class1 h4{
+	font-size:60px;
+	position:fixed;
+	color:white;
+	position:absolute;
+}
+
+#class1 h4 span{
+	color:white;
+	font-size:20px;
+	margin-left:960px;
+	position:absolute;
+}
+
+p{
+	color: black;
+	text-align:center;
+}
+
+body{
+	min-height:100%;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+
+#envGSB{
+	margin-right : auto;
+	margin-left : auto;
+	text-align:center;
+	width : 500px;
+}
+
+#prod1{
+	background-color:grey;
+	width:300px;
+	height:400px;
+	float:left;
+	margin-left:50px;
+	border:solid 1px #333333;
+	text-align:center;
+	display:inline-block;
+}
+
+#prod2{
+	background-color:grey;
+	width:300px;
+	height:400px;
+	float:right;
+	margin-right:50px;
+	border:solid 1px #333333;
+	text-align:center;
+	display:inline-block;
+}
+
+#prod3{
+	background-color:grey;
+	width:300px;
+	height:400px;
+	margin-right:auto;
+	margin-left:190px;
+	border:solid 1px #333333;
+	text-align:center;
+	display:inline-block;
+}
+
+ul{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+ 
+li{
+	margin-left:2px; /* Décale chque li les uns des autres */ 
+	float:left; /*pour IE*/
+}
+ 
+ul li a{
+	display:block; /*Donne largeur fixe et identique à chauqe item */
+	float:left;   /*Permet qu'ils ne s'empilent pas les uns sur les autres */ 
+	width:100px;
+	background-color: black;
+	color:white;
+	text-decoration:none;
+	text-align:center;
+	padding:2px;
+	border:0px solid;
+	/*pour avoir un effet "outset" avec IE :*/
+	border-color:#DCDCDC #696969 #696969 #DCDCDC;
+}
+ 
+ul li a:hover { /*Définit l'aspect du bouton lors du survol de la souris */
+	background-color:#D3D3D3;
+	border-color:#696969 #DCDCDC #DCDCDC #696969;
+} 
+ 
+ ul li a p{
+	color:white;
+}
+}
