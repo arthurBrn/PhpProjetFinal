@@ -6,3 +6,10 @@
 
 -- Script SQL
 -- Documentation wiki
+
+#### Exercice Pull ####
+
+On modifie simplement ce README.md pour faire un pull.
+La commande PULL nous permettera d'apporter uniquement les modifications au fichie déjà présent sur l'host.
+# Fin Pull #
+
